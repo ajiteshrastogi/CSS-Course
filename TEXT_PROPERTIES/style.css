@@ -1,0 +1,71 @@
+h2{
+    text-align: center;
+}
+#p1{
+    text-align: left;
+    color: darkgoldenrod;
+}
+#p2{
+    text-align: center;
+    color:darkorchid;
+}
+#p3{
+    text-align: right;
+    color: lawngreen;
+}
+#p4{
+    text-align: start;
+    background-color: aqua;
+}
+#p5{
+    text-align: end;
+    background-color: darksalmon;
+}
+
+/* Here the text-align: start, end  means that text is align acoording to differnt language for example
+English and hindi, start = left and end = right
+for Urdu start = right and end = left  */
+/* text is aligned according the parent tag */
+/* -------------------------------------------------------------------------------------------------------------------  */
+#p10{
+    text-decoration: overline;
+}
+#p11{
+    text-decoration: wavy underline; /* we can also edit the line */
+}
+#p12{
+    text-decoration: red line-through; /* we can able to set color*/
+}
+/* as in the anchor tag there is underline below the link so using text decoration we can remove it  */
+a{
+    text-decoration: none;
+}
+/* -------------------------------------------------------------------------------------------------------------------  */
+#p13{
+    font-weight: lighter;
+}
+#p14{
+    font-weight: bold;
+}
+#p15{
+    font-weight: bolder;
+}
+#p16{
+    font-weight: normal;
+}
+#p17{
+    font-weight:880;
+}
+/* font family is used to change style of font  */
+/* also we can increase and decrease font size */
+#p18{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+/* line height is used to give space between line  */
+#dd11{
+    line-height: 40px;
+}
+#p20{
+    text-transform: capitalize;
+}
