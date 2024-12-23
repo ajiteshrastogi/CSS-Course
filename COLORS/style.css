@@ -1,0 +1,37 @@
+p{
+    color :deeppink;
+}
+
+body{
+    background-color:bisque;
+}
+/* color is used for foreground and background used as its name  */
+
+button{
+    color:red;
+    background-color: yellow;
+}
+
+h3{
+    color:rgb(0, 0, 225);
+    /* this is another type of color picker using rgb (red_Intensity, green_Intensity, blue_Intensity) */
+    background-color: #00f0f0; 
+    /* another method to pick a color using hexadecimal range from 00 -> ff  */
+}
+/* There are some selector 
+*{} --> universal selector : fro whole document
+p,h3,etc {} --> element selector : for single element
+#myID{} --> ID selector 
+.myClass{} --> class Selector */
+/* jo selector sabse niche likha ho priority uski hi hoti bhale hi do same selector ho */
+
+#headingone{
+    color:crimson;
+}
+#headingtwo{
+    color:deepskyblue;
+}
+
+.myclass{
+    color:darkseagreen;
+}

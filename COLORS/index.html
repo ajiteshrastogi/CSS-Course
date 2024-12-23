@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Internal stylesheets <style>, which go inside the HTML <head> -->
+    <!-- To apply uniform CSS styling to multiple pages using internal stylesheets, you must repeat the internal stylesheet across every web page.  -->
+    <!-- All my h1 heading will be red always in body -->
+    <style> 
+        h1, h2{
+            color: red;
+        }
+        /* h1 and h2 are the selector,  color is the property and red is the value */
+    </style>
+    <!-- WE generally use the External Stylesheet
+    Writing CSS in a separate document & linking it with HTML file 
+    To use External stylesheet we have to link it -->
+    <link rel="stylesheet" href="/COLORS/style.css">
+    <!-- rel = which type of relation -->
+    
+</head>
+<body>
+    <!-- Inline styles are CSS declarations that affect a single HTML element -->
+    <h1 style="color: purple;">Hello </h1> <!-- Inline color changes -->
+    <!-- Inline style have more priority then external stylesheet 
+    But we will perefer more to use of External style sheet  -->
+    <h1> Heading </h1>
+    <p>This is paragraph and colored from external style </p>
+    <button><b>Click me!</b> </button>
+    <h3>Namastey</h3>
+    <h1 id="headingone">HEADING_ONE</h1>
+    <h1 id="headingtwo">HEADING_TWO</h1>
+    <H1 class="myclass">Class Heading</H1>
+    <p class="myclass">This is same class paragraph </p>
+
+</body>
+</html>
