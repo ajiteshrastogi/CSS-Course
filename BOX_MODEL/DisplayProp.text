@@ -1,0 +1,24 @@
+-----Display Property----------
+
+display: inline / block / inline-block / none
+
+inline - Takes only the space required by the element. (no margin/ padding)
+
+block - Takes full space available in width.
+
+inline-block - Similar to inline but we can set margin & padding.
+
+none - To remove element from document flow.
+
+---------Visibility---------
+
+visibility: hidden;
+
+Note : When visibility is set to none, space for the element is reserved.
+But for display set to none, no space is reserved or blocked for the element.
+
+---------Alpha Channel----------
+RGBA :
+A stands for opacity 
+opacity (0 to 1)
+color: rgba(255, 0, 0, 0.5);
