@@ -1,0 +1,37 @@
+.myclass{
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+}
+img{
+    width:1;
+}
+#content{
+    height:400px;
+}
+p,a, form,button{
+    display: inline;
+}
+#div{
+    background-color: #0f1111;
+    height: 60px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+}
+a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 200px;
+}
+#p1{
+    color:#f08804;
+    font-size: 25px;
+    text-transform: lowercase;
+}
+button{
+    text-transform: capitalize;
+    background-color: #f08804;
+
+}
