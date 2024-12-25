@@ -1,0 +1,53 @@
+#boxone{
+    background-color: coral;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    background-image: url(https://images.unsplash.com/photo-1693968253414-51fde19fcf9c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+
+#boxtwo{
+    background-color: deepskyblue;
+    height: 100px;
+    width: 50%;
+    margin-left: 20%; /* means 20% of the box1 = 40px*/
+    font-size: 2em; /*font of box2 is double of box1*/
+}
+#bigbox{
+    border:2px dashed darkorange;
+    height: 200px;
+    width: 700px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border:2px solid darkred;
+    display:inline-block; 
+}
+#box1{
+    position:static /* not any change */ 
+}
+#box2{
+    position: relative; /* here it relative to its original static place */
+    top:20px;
+    left:20px;
+}
+#box3{
+    position: absolute; /* it will do relative to parent (body) tag */
+    top:300px;
+    left:200px;
+}
+#box4{
+    position: fixed; /*relative to the browser page and also fixed for scrolling */
+    right: 50px;
+    background-image: url(https://images.unsplash.com/photo-1733173523386-3006dec1a835?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D);
+}
+#box5{
+    position: sticky; /* here it will fixed on scrool but in its parent box only */
+    top:100px;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1734806846669-e2d360e47e32?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D);
+}
