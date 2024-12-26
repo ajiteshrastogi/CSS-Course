@@ -40,7 +40,7 @@
     /* aniamtion shorthand --> animation : name duration timing-function delay iteration-count direction; */
     animation: animooo 8s ease-in 1s infinite alternate-reverse;
 }
-/* second method for animation */
+/* second method for animation keyframe */
 @keyframes animooo{
     0%{
         background-color: aqua;
