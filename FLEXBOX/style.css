@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border:2px solid darkred;
+}
+#container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: start;
+    align-items: center;
+
+}
+#box1{
+    background-color: aqua;
+    align-self: flex-end;
+}
+#box2{
+    height: 200px;
+    background-color:chartreuse;
+}
+#box3{
+    flex-grow: 2;
+    background-color:darkorange;
+}
+#box4{
+    flex-grow: 2;
+    background-color:pink;
+    align-self: flex-start;
+}
+#box5{
+    flex-shrink:4; 
+    background-color:yellow;
+}

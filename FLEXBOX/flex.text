@@ -1,0 +1,75 @@
+-----------------------------------------------------FlexBox--------------------------------------------------------
+It is a one-dimensional layout method for arranging items in rows or columns.
+Items flex (expand) to fill additional space or shrink to fit into smaller spaces.
+Flex terminology — flex container, flex item, main axis, and cross axis.
+
+Flexbox Direction----------------------------------------------------------------------------------------------------
+
+It sets how flex items are placed in the flex container, along which axis and direction.
+Flexbox provides a property called flex-direction that specifies which direction the main axis runs (which direction the flexbox children are laid out in).
+By default this is set to row, which causes them to be laid out in a row.
+
+flex-direction : row; (default) [It set (elements and main axis) from left to right]
+flex-direction : row-reverse;  [It set (elements and main axis) from right to left]
+flex-direction : column;  [It set (elements and main axis) from top to bottom]
+flex-direction : column-reverse;  [It set (elements and main axis) from bottom to up]
+
+if total flex dimension is smaller then sum of its dimension of flex item.
+Then flex item is setted according to flex box not the dimension that you have given.
+
+means flexitems should be remain in flexbox whatever thier dimension until fontsize allowed. 
+if fontsize of flexitems exceeds the flexbox then it may came out the box.
+
+Jusify content-----------------------------------------------------------------------------------------------------
+The CSS justify-content property defines how the browser distributes
+space between and around content items along the main axis of a flex container.
+It is alignment along the main axis.
+
+justify-content: center;
+The items are packed flush to each other toward the center of the alignment container along the main axis.
+
+justify-content: flex-start
+The items are packed flush to each other toward the edge of the alignment container depending on the flex container's main-start side.
+
+justify-content: flex-end
+The items are packed flush to each other toward the edge of the alignment container depending on the flex container's main-end side.
+
+justify-content: left;
+The items are packed flush with each other toward the left edge of the alignment container.
+
+justify-content: right;
+The items are packed flush to each other toward the right edge of the alignment container in the appropriate axis.
+
+justify-content: space-between;
+The items are evenly distributed within the alignment container along the main axis. 
+The spacing between each pair of adjacent items is the same.
+The first item is flush with the main-start edge, and the last item is flush with the main-end edge.
+
+justify-content: space-around;
+The items are evenly distributed within the alignment container along the main axis. 
+The spacing between each pair of adjacent items is the same. 
+// The empty space before the first and after the last item equals half of the space between each pair of adjacent items. 
+If there is only one item, it will be centered.
+
+justify-content: space-evenly;
+The items are evenly distributed within the alignment container along the main axis. 
+The spacing between each pair of adjacent items, the main-start edge and the first item,
+and the main-end edge and the last item, are all exactly the same.
+
+---------------------------------------------------------------------------------------------------------------
+align-items : alignment along the cross axis.
+Here all the item will align and may be there will any space between the items
+
+align-content : alignment of space between & around the content along cross-axis
+Here the all content will align and the it tryies to minimise the space between the Items
+
+flex-wrap : nowrap / wrap / wrap-reverse
+---------------------------------------------------------------------------------------------------------
+align-self : alignment of individual along the cross axis.
+self align has more priority then the container or items aignment 
+
+flex-grow : how much a flex item will grow relative to the rest of the flex items if
+space is available
+
+flex-shrink : how much a flex item will shrink relative to the rest of the flex items if
+space is available
