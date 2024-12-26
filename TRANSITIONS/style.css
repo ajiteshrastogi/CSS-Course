@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    border:2px solid darkmagenta;
+    background-color: aqua;
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-property: all;
+    /* property you want to transition (font-size, width etc.) */
+    transition-duration:2s; /* time for transition */
+    transition-timing-function:steps(5);  /* do it in 5 steps */
+     /*ease-in / ease-out / linear / steps .. */
+    transition-delay :0s; /* kitne time baad change aaye */
+    /* transition shorthand is --> tansition:transition-property/ transition-duration/ transition-timing-function/ transition-delay;  */
+    transition: all 2s steps(5) 0s;
+    
+}
+div:hover{ /*changes on hovering*/
+    background-color: indigo;
+    color: chartreuse;
+    font-family:'Courier New', Courier, monospace;
+}
+div:active{ /*if you click on the element the it changes*/
+    background-color: coral;
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
