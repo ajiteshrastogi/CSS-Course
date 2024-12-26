@@ -1,0 +1,63 @@
+div{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+#box1,#box2{
+    display: inline-block;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    color: darkblue;
+    border:2px dashed darkmagenta;
+}
+/* ROTATION--------------------------------------------------------------------------------- */
+#box1:hover{
+    transform: rotate(45deg);
+    background-color: brown;
+    color: white;
+}
+/* you can also do it in 3D object in X,Y,Z direction */
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    color: darkblue;
+    border:2px dashed darkmagenta;
+}
+/* SCALING--------------------------------------------------------------------------------- */
+#box2:hover{
+    transform: scale(2);
+    transform:scale(1,2); /*in both direction */
+    /* scale:Y 5;  only in y direc */
+    background-color: deeppink;
+    color: dodgerblue;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    color: darkblue;
+    border:2px dashed darkmagenta;
+}
+/* TRANSLATION--------------------------------------------------------------------------------- */
+#box3:hover{
+    transform: translate(100px);
+    transform: translate(20px, 50px);
+    background-color: aqua;
+    color: chocolate;
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    color: darkblue;
+    border:2px dashed darkmagenta;
+}
+/* SKEWNESS--------------------------------------------------------------------------------- */
+#box4:hover{
+    transform: skew(30deg);
+    background-color: cadetblue;
+    color: chartreuse;
+}
