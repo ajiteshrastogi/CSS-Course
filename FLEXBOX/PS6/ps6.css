@@ -1,0 +1,37 @@
+#navbar{
+    width: 1000px;
+    height: 50px;
+    background-color: burlywood;
+    border: 2px solid darkblue;
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+a{
+    text-decoration: none;
+    color: darkred;
+    background-color:antiquewhite;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+#outer{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(233, 8, 53);
+    border:5px solid rgb(110, 8, 154);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorange;
+    border: 2px dashed yellow;
+}
